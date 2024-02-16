@@ -4,26 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Age Calculator</title>
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha384-gN7LISB3EIqfuISsy10w7L1z2nVbZ5Oom8zqPG5cd/dV3Jc92rny4U80+q3g1G2"
-      crossorigin="anonymous"
-    />
-
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <h1>Age Calculator</h1>
-      <form action="">
+      <form action="" id="form">
         <label for="birth" class="input-label">
           Enter your date of birth
           <input type="date" id="birth" />
           <i class="fa-solid fa-calendar-days"></i>
         </label>
-        <button type="submit">Calculate</button>
+        <button type="submit" id="btn">Calculate</button>
+        <p id="result">Your age is X years old</p>
       </form>
     </div>
     <script src="script.js"></script>
