@@ -8,7 +8,7 @@ const result = document.getElementById('result');
 
 function ageCalculator(e) {
 
-e.preventDefault();
+e.preventDefault(); /* BECAUSE THE EVENT IS ON FORM  */
 
     const birthdayValue = input.value
 
